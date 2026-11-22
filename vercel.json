@@ -1,14 +1,14 @@
 {
   "builds": [
     {
-      "src": "chiamaka_portfolio/wsgi.py",
+      "src": "core/wsgi.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "chiamaka_portfolio/wsgi.py"
+      "dest": "core/wsgi.py"
     }
   ]
 }
