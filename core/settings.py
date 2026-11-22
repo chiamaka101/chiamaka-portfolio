@@ -20,7 +20,7 @@ load_dotenv(BASE_DIR / '.env')
 
 SECRET_KEY = '1!0yf$6kmla6gj@ab93o+t8zwns@n2ttt(^5jb%xsn%w#_arb*'
 DEBUG = True
-ALLOWED_HOSTS = ['chiamaka101.pythonanywhere.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['chiamaka101.pythonanywhere.com', 'localhost', '127.0.0.1', '.vercel.app']
 
 
 INSTALLED_APPS = [
